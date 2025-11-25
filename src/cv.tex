@@ -69,7 +69,7 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
         \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
     \end{tabular*}
-    \vspace{-3mm}
+    \vspace{-3.4mm}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -118,9 +118,9 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
-\newcommand{\name}{Pintilie Sebastian Marian} % Your Name
-\newcommand{\phone}{+40758595383} % Your Phone Number
-\newcommand{\emaila}{sebi.pintilie@gmail.com} %Email 1
+\newcommand{\name}{Pintilie Sebastian Marian}
+\newcommand{\phone}{+31645270819}
+\newcommand{\emaila}{raraiku@proton.me}
 
 \begin{document}
 \fontfamily{cmr}\selectfont
@@ -149,11 +149,15 @@ My greatest joy comes from writing C code that's not just efficient but downrigh
 \end{justify}
 
 %-----------EDUCATION-----------
+\vspace{-0.3cm}
 \section{\textbf{Education}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Mathematics and Informatics Profile}{}
-      {National High School ``Vasile Alecsandri'', Galaţi}{2021-Present}
+      {Bachelor of Electrical Engineering}{\vspace{-0.04cm}}
+      {Technische Universiteit, Eindhoven}{2025-Present\vspace{-0.04cm}}
+    \resumeSubheading
+      {Mathematics and Informatics Profile}{\vspace{-0.04cm}}
+      {National High School ``Vasile Alecsandri'', Galaţi}{2021-2025\vspace{-0.04cm}}
   \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
@@ -161,53 +165,68 @@ My greatest joy comes from writing C code that's not just efficient but downrigh
 \section{\textbf{Voluntary work}}
 \resumeSubHeadingListStart
     \resumeProject
+      {Network and Security Engineer for Apa Canal S.A. Galaţi} 
+      {Setting up and maintaining secure connectivity and automated vulnerability testing for my local water utility company} 
+      {2024 - 2025} 
+
+      \resumeItemListStart
+        \item {Tools \& technologies used: Security Onion, Wazuh, Greenbone, XCP-ng, Winbox}
+        \item { Working with the company I deployed and maintained servers hosting IDS/IPS solutions to be used to guard the entire county. }
+        \item { I implemented and secured WireGuard tunnels to protect communications for 500+ MikroTik and Teltonika routers. }
+      \resumeItemListEnd
+    \vspace{-4mm}
+
+    \resumeProject
+      {Head of the Programming Department of the Robotics Team RoSophia\#21455 } 
+      {Programming autonomous motion control systems for an award winning robot} 
+      % {December 2022 - 2025} 
+      {2022 - 2025} 
+
+      \resumeItemListStart
+        \item {Tools \& technologies used: Java, Kotlin, Android Studio, KiCad }
+        \item { I have been part of this team for 3 consecutive years, working our way up to winning the most prestigious award at the regional and national level, in the end qualifying us for the international competition where we managed to reach the division semi-finals. }
+        \item { Programming the robot meant programming mechanical systems to work in an efficient and fully autonomous fashion. To achieve this I had to rely on internal sensors and camera vision, applying corrections and taking decisions based on the given inputs. I have even had to design and assemble my own printed circuit boards for specific sensors. }
+        \item { Through competing in First Tech Challenge I've also enhanced my communication skills, teamwork and quick critical thinking. }
+    \resumeItemListEnd
+    \vspace{-4mm}
+
+    \resumeProject
+      {Server Administrator for Apa Canal S.A. Galaţi} 
+      {Setting up and maintaining SCADA servers for my local water utility company} 
+      {2019 - 2025} 
+
+      \resumeItemListStart
+        \item {Tools \& technologies used: Ignition (Inductive Automation), PostgreSQL, VMware, QEMU, Nginx}
+        \item { Working with them I've had to set up Ignition and PostgreSQL database servers in both bare metal and virtualised environments. }
+        \item { At the same time I've also learned how to maximise the uptime of servers through configuring fallbacks for every system. }
+    \resumeItemListEnd
+    \vspace{-4mm}
+
+    \resumeProject
       {Scripting Volunteer at Room At The Inn, Nashville, TN} 
       {Volunteer in the award winning project providing homeless people in the Nashville, TN area} 
-      {June 2020 - August 2023} 
+      % {June 2020 - August 2023} 
+      {2020 - 2023} 
 
       \resumeItemListStart
         \item {Tools \& technologies used: Ignition (Inductive Automation), Microsoft SQL Server }
         \item {I have been tasked with making the scripting in the project work, bringing everything to life.}
         \item {It was also my first time having clear deadlines and goals set by others.}
     \resumeItemListEnd
-    \vspace{-2mm}
+    \vspace{-4mm}
 
     \resumeProject
       {System Integrator for Lemacons S.R.L. Galaţi} 
       {Industrial control and readout system for a grain weighing scale} 
-      {August 2022} 
+      % {August 2022} 
+      {2022} 
 
       \resumeItemListStart
         \item {Tools \& technologies used: Ignition (A supervisory control and data acquisition system), RS485 Communication, Raspberry Pi}
         \item {Developed a software system for Lemacons, aiding in their successful reach of the second most profitable company in Galaţi}
         \item {This system was tasked with storing measurements in a database, and generating statistics and visualizations through an Ignition frontend}
     \resumeItemListEnd
-    \vspace{-2mm}
-
-    \resumeProject
-      {Head of the Programming Department of the Robotics Team RoSophia\#21455 } 
-      {Programming autonomous motion control systems for an award winning robot} 
-      {December 2022 - Present} 
-
-      \resumeItemListStart
-        \item {Tools \& technologies used: Java, Kotlin, Android Studio, KiCad }
-        \item { I have been part of this team for 3 consecutive years, working our way up to winning the most prestigious award at the regional and national level, in the end qualifying us for the international competition where we managed to reach the division semi-finals. }
-        \item { Programming the robot meant programming mechanical systems to work in an efficient and fully autonomous fashion. To achieve this i had to rely on internal sensors and camera vision, applying corrections and taking decisions based on the given inputs. I have even had to design and assemble my own printed circuit boards for specific sensors. }
-        \item { Through competing in First Tech Challenge I've also enhanced my communication skills, teamwork and quick critical thinking. }
-    \resumeItemListEnd
-    \vspace{-2mm}
-
-    \resumeProject
-      {Server Administrator for Apa Canal S.A. Galaţi} 
-      {Setting up and maintaining SCADA servers for my local water utility company} 
-      {2019 - Present} 
-
-      \resumeItemListStart
-        \item {Tools \& technologies used: Ignition (Inductive Automation), PostgreSQL, VMware, QEMU, Nginx}
-        \item { Working with them I've had to set up Ignition and PostgreSQL database servers in both bare metal and virtualised environments. }
-        \item { At the same time I've also learned how to maximise the uptime of servers through conifguring fallbacks for every system. }
-    \resumeItemListEnd
-    \vspace{-2mm}
+    \vspace{-4mm}
 \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
@@ -215,84 +234,82 @@ My greatest joy comes from writing C code that's not just efficient but downrigh
 \section{\textbf{Personal Projects}}
 \resumeSubHeadingListStart
     \resumeProject
-      {FPGA Signal Analyser} 
-      {A digital signal analyser controlled by a field-programmable gate array} 
-      {January 2024 - Present} 
+      {FPGA RISC-V CPU} 
+      {A 32 bit CPU supporting the RV32G instruction set} 
+      {August 2025} 
 
       \resumeItemListStart
         \item {Tools \& technologies used: FPGA, Vivado, Verilog to Routing }
-        \item {This projects facilitates my learning of using tehnology comparable to customisable silicon chips with which I design to eventually power a bionic, mechanised arm.}
+        \item {The CPU supports ram access using an external chip as well as boasting an SD-card interface for persistent storage. }
+        \item {This project deepened my experience with technology similar to customizable silicon chips, which I plan to use to eventually recreate vintage computer systems. }
     \resumeItemListEnd
-    \vspace{-2mm}
+    \vspace{-4mm}
 
     \resumeProject
       {Analog Levitator} 
-      {A personal electromagnetic levitator for my keys}  
-      {August 2023 - Present} 
+      {A personal electromagnetic levitator for keys}  
+      {January 2025} 
 
       \resumeItemListStart
-        \item {Tools \& technologies used: Power electronics, Electromagents }
+        \item {Tools \& technologies used: Power electronics, Electromagnets }
         \item {This project not only made me truly understand the magnetism in electromagnetism, but it also opened my eyes to the complexities of analog systems.}
     \resumeItemListEnd
-    \vspace{-2mm}
-
-    \pagebreak
+    \vspace{-4mm}
 
     \resumeProject
       {Suijin} 
-      {A fully featured 3d renderer including volumetric clouds} 
-      {October 2021 - Present} 
+      {A fully featured 3D renderer including volumetric clouds} 
+      {October 2021 - 2024} 
 
       \resumeItemListStart
         \item {Tools \& technologies used: C, OpenGL, Blender }
         \item {I created this piece of software ex nihilo, resulting in a new-found appreciation for core computer graphics and 3d modeling in Blender.}
     \resumeItemListEnd
-    \vspace{-2mm}
-
-    \resumeProject
-      {SNMP Ignition Module} 
-      {A module that enabled snmp (a network diagnostics protocol also used in network routers) communication in Ignition} 
-      {May 2020} 
-
-      \resumeItemListStart
-        \item {Tools \& technologies used: Ignition (Inductive Automation), SNMP, Java, Maven }
-        \item {Writing this helped me learn the basics of networking protocols. }
-        \item {This module also been used by the ADM company with over 42000 employees. }
-    \resumeItemListEnd
-    \vspace{-2mm}
+    \vspace{-4mm}
 
     \resumeProject
       {Nixie Clock} 
-      {A decorative clock based on soviet era nixie tubes} 
+      {A decorative clock based on Soviet era nixie tubes} 
       {January 2022} 
 
       \resumeItemListStart
         \item {Tools \& technologies used: Breadboards, Arduino, Soldering }
-        \item { This project sparked my interest in electronics and helped me understand electricity better. }
+        \item { This project sparked my interest in electronics and helped me understand electricity and PCB design better. }
     \resumeItemListEnd
-    \vspace{-2mm}
+    \vspace{-4mm}
 
     \resumeProject
-      {Iamonalist} 
-      {Website designed to function as a project managment platform} 
-      {June 2020} 
-
-      \resumeItemListStart
-        \item {Tools \& technologies used: Svelte, Javascript, Typescript, Nodejs, Deno, MongoDB, Docker}
-        \item {Through this I got my start in full stack development as well as with using databases. }
-    \resumeItemListEnd
-    \vspace{-2mm}
-      
-    \resumeProject
-      {QShop} 
-      {A shop plugin for Minecraft} 
+      {SNMP Ignition Module} 
+      {A module that enabled SNMP (a network diagnostics protocol also used in network routers) communication in Ignition} 
       {May 2020} 
 
       \resumeItemListStart
-      \item {Tools \& technologies used: Java, Maven, Git \& Github}
-      \item {My plugin was implemented and successfully facilitated trading in two medium sized Minecraft servers (~200 users)}
+        \item {Tools \& technologies used: Ignition (Inductive Automation), SNMP, Java, Maven }
+        \item {This module taught me the basics of networking protocols, while having also been used by the ADM company with over 42000 employees. }
     \resumeItemListEnd
-    \vspace{-2mm}
+    \vspace{-4mm}
+
+%    \resumeProject
+%      {Iamonalist} 
+%      {Website designed to function as a project management platform} 
+%      {June 2020} 
+%
+%      \resumeItemListStart
+%        \item {Tools \& technologies used: Svelte, JavaScript, TypeScript, Nodejs, Deno, MongoDB, Docker}
+%        \item {Through this I got my start in full stack development as well as with using databases. }
+%    \resumeItemListEnd
+%    \vspace{-2mm}
+%      
+%    \resumeProject
+%      {QShop} 
+%      {A shop plugin for Minecraft} 
+%      {May 2020} 
+%
+%      \resumeItemListStart
+%      \item {Tools \& technologies used: Java, Maven, Git \& Github}
+%      \item {My plugin was implemented and successfully facilitated trading in two medium sized Minecraft servers (~200 users)}
+%    \resumeItemListEnd
+%    \vspace{-2mm}
 \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
@@ -301,25 +318,25 @@ My greatest joy comes from writing C code that's not just efficient but downrigh
  \begin{itemize}[leftmargin=0.05in, label={}]
     \small{\item{
      \textbf{Languages}{: C, modern C$++$, Python, Java, Kotlin, Verilog, Javascript, Typescript} \\
-     \textbf{General purpose}{: Linux, Git, Github, CMake, Gnu Maketools} \\
+     \textbf{General purpose}{: Linux, Git, Github, CMake, Gnu Autotools} \\
      \textbf{Computer graphics}{: OpenGL, Vulkan, X11, Wayland} \\
-     \textbf{Compartimentalisation}{: VMware, QEMU, VirtualBox, Docker} \\
+     \textbf{Compartmentalisation}{: VMware, QEMU, VirtualBox, Docker} \\
      \textbf{Databases}{: PostgreSQL, MongoDB, SQLite, MariaDB, Microsoft SQL Server, Oracle} \\
-     \textbf{CAD \& CAM}{: Kicad, Blender, OpenSCAD, EPLAN Electric, OnShape} \\
+     \textbf{CAD \& CAM}{: KiCad, Blender, OpenSCAD, EPLAN Electric, OnShape} \\
      \textbf{Electrical skills}{: Soldering, Design of electrical schematics and PCBs, FPGA Development} \\
-     \textbf{Extras}{: Ignition (Inductive automation), Nginx, Latex, Groff, Vivado, Verilog to Routing } \\
+     \textbf{Extras}{: Ignition (Inductive Automation), Nginx, LaTeX, Groff, Vivado, Verilog-to-Routing } \\
      \textbf{Areas of Interest}{: Algorithms, Computer graphics, Particle and Nuclear Physics, Astronomy, Mathematics, Linguistics, Engineering, Music} \\
     }}
  \end{itemize}
- \vspace{-16pt}
+\vspace{-16pt}
 
 %-----------Achievements-----------------
 \section{\textbf{Achievements}}
-\vspace{-0.4mm}
+\vspace{-0.8mm}
 \resumeSubHeadingListStart
-\resumePOR{1st place } % Award
+\resumePOR{1st place and gold medalist } % Award
     {at the {\bf National Applied Informatics} olympiad Acadnet} % Event
-    {2024} %Event Year
+    {2024, 2025} %Event Year
 
 \resumePOR{Division semi-finalists } % Award
     {at the {\bf International Robotics} competition First Tech Challenge} % Event
@@ -343,15 +360,15 @@ My greatest joy comes from writing C code that's not just efficient but downrigh
 
 \resumePOR{5 time 1st place } % Award
     {at the {\bf Galaţi Informatics} olympiad} % Event
-    {2018, 2020, 2021, 2022, 2024} %Event Year
+    {2018, 2020, 2021, 2022, 2024, 2025} %Event Year
 
 \resumePOR{2nd prize } % Award
     {at the {\bf National Physics} contest Mircea Amarine} % Event
     {2020} %Event Year
 
-\resumePOR{3nd prize } % Award
-    {at the {\bf National Physics} contest PHI} % Event
-    {2020} %Event Year
+% \resumePOR{3rd prize } % Award
+    % {at the {\bf National Physics} contest PHI} % Event
+    % {2020} %Event Year
 
 \resumePOR{Judge's award } % Award
     {at the {\bf National Robotics} competition FTC} % Event
@@ -372,17 +389,17 @@ My greatest joy comes from writing C code that's not just efficient but downrigh
 \vspace{-5mm}
 
 \section{\textbf{Languages}}
-\vspace{-0.4mm}
+\vspace{0.4mm}
 \begin{center}
 \begin{multicols}{2}
   \begin{tabularx}{6.6cm}{>{\raggedright\arraybackslash}X  >{\raggedright\arraybackslash}X  >{\raggedright\arraybackslash}X}
-    {\bf English } & C2 & \hspace{-1.4cm}Fluent \\
-    {\bf Romanian} & C2 & \hspace{-1.4cm}Native \\
+    {\bf English } & C2 & \hspace{-1.4cm}Fluent\vspace{0.4mm} \\
+    {\bf Romanian} & C2 & \hspace{-1.4cm}Native\vspace{0.4mm} \\
     {\bf German  } & B2 & \hspace{-1.4cm}Vocational \\
   \end{tabularx}
   \begin{tabularx}{6.1cm}{>{\raggedright\arraybackslash}X  >{\raggedright\arraybackslash}X  >{\raggedright\arraybackslash}X}
-    {\bf Japanese} & B2 & \hspace{-1.3cm}Vocational \\
-    {\bf Swedish } & B1 & \hspace{-1.3cm}Conversational \\
+    {\bf Japanese} & B2 & \hspace{-1.3cm}Vocational\vspace{0.4mm} \\
+    {\bf Swedish } & B1 & \hspace{-1.3cm}Conversational\vspace{0.4mm} \\
     {\bf French  } & B1 & \hspace{-1.3cm}Conversational \\
   \end{tabularx}
 
